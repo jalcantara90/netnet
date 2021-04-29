@@ -1,0 +1,37 @@
+body {
+  background-color: #000000;
+  margin: 0px;
+}
+
+header{
+  background:black;
+  padding: 16px
+}
+
+.menu_item{
+  color: white;
+  text-decoration:none;
+  font-size: 14px;
+}
+
+.menu{
+  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 80% );
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 3rem
+}
+
+.container{
+  height: 63vh;
+  width: 100vw;
+  background-size:cover;
+  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 80% ), url(../assets/matrix_poster.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.matrix{
+  display:flex;
+  align-items: center;
+  flex-direction:column
+}
