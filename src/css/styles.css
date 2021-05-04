@@ -2,6 +2,7 @@ body {
   background-color: #000000;
   margin: 0px;
   overflow-x: hidden;
+  position:relative;
 }
 
 header {
@@ -27,10 +28,10 @@ header {
   width: 100vw;
   background-size:cover;
   background-image: linear-gradient(180deg, #000000 0%, transparent 50%, #000000 100%), url(../assets/matrix_poster.jpg);
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-bottom: 48px;
 }
 .promoted_movie {
   display:flex;
@@ -87,12 +88,35 @@ header {
 }
 .carousel_item{
   margin-left: 8px;
+}
+.carousel_item img {
+  width: 25vw;
 
 }
+
 .carousel_item:first-child{
   margin-left: 0;
 }
 
 .category{
-  padding: 0 16px;
+  /* padding-left: 16px; */
+  padding: 0 0 0 16px;
+}
+footer{
+  display:flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom:0;
+  background:black;
+  width:100%;
+}
+footer .action_icon{
+  padding: 1rem;
+  color: grey;
+}
+footer .action_icon:first-child{
+  color:white;
+}
+html{
+  position:relative;
 }
