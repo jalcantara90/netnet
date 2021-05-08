@@ -1,0 +1,97 @@
+header{
+    padding:16px;
+    top: 0;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+}
+.movie_image{
+    width:100%;
+}
+h1{
+    padding: var(--layout-separation);
+    margin: 16px 0;
+}
+.movie_info{
+    display:flex;
+    flex-direction: row;
+    padding: var(--layout-separation);
+    justify-content: space-around;
+    align-items: center;
+}
+.coincidence{
+  color:#71D074;
+  font-weight: bold;
+}
+.year{
+    color: var(--grey);
+}
+.age_classification{
+  padding: 4px 4px;
+  background-color:#4D4D4D;
+  border-radius: 2px;
+}
+.duration{
+  color: var(--grey);
+}
+.quality{
+  border: solid 1px var(--grey);
+  border-radius: 2px;
+  padding: 2px 2px; 
+}
+.actions{
+  display: flex;
+  flex-direction: column;
+  padding: var(--layout-separation);
+  margin-top: 16px;
+}
+
+.button {
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 8px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 16px;
+    background-color: white;
+}
+
+.actions_download_button{
+  background-color: #2B2B2B;
+  color: white;
+}
+.synopsis{
+  padding: var(--layout-separation);
+}
+.resume{
+  
+  line-height: 24px;
+}
+.workers{
+  color: var(--grey);
+  font-size: 11px;
+  margin:0;
+}
+
+.workers:nth-child(2)  {
+  margin-bottom: 4px;
+}
+.action_icons{
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  padding: var(--layout-separation);
+  padding-top: 16px;
+}
+
+.category_title{
+  display:inline-block;
+  border-top: 4px solid #D22F26;
+  padding-top:8px;
+}
+
+.action_icons .action_icon{
+  margin-right: 24px;
+  color: var(--grey);
+}

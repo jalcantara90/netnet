@@ -1,80 +1,22 @@
+:root {
+  --grey: #686868;
+  --layout-separation: 0 16px;
+}
+
 body {
   background-color: #000000;
   margin: 0px;
   overflow-x: hidden;
   position:relative;
-}
-
-header {
-  background:black;
-  padding: 16px
-}
-
-.menu_item {
+  margin-bottom: 6rem;
   color: white;
-  text-decoration:none;
-  font-size: 14px;
-}
-
-.menu {
-  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 80% );
-  display: flex;
-  justify-content: space-evenly;
-  padding-bottom: 3rem
-}
-
-.container {
-  height: 63vh;
-  width: 100vw;
-  background-size:cover;
-  background-image: linear-gradient(180deg, #000000 0%, transparent 50%, #000000 100%), url(../assets/matrix_poster.jpg);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-bottom: 48px;
-}
-.promoted_movie {
-  display:flex;
-  align-items: center;
-  flex-direction:column;
-}
-
-.tag_list{
-  color: white;
-  display:flex;
-  flex-direction:row;
-  justify-content: space-around;
-  font-size: 0.8rem;
-  padding:0;
-  width: 100%;
-  margin: 0px;
-  padding: 0.8rem;
-  background-image: linear-gradient(to top, black, transparent);
-}
-
-.tag:first-child {
-  list-style: none;
-}
-
-.actions{
-  color: white;
-  display: flex;
-  justify-content: space-around;
-  width:100%;
-  background-color: black;
+  margin-top: 3rem;
 }
 
 .action_icon{
   display:flex;
   flex-direction:column;
   align-items: center;
-}
-.action_button{
-  padding: 4px 16px;
-  display:flex;
-  align-items: center;
-  border-radius: 2px;
-  border: none;
 }
 
 .carousel{
@@ -99,9 +41,9 @@ header {
 }
 
 .category{
-  /* padding-left: 16px; */
   padding: 0 0 0 16px;
 }
+
 footer{
   display:flex;
   justify-content: space-around;
@@ -117,6 +59,8 @@ footer .action_icon{
 footer .action_icon:first-child{
   color:white;
 }
-html{
-  position:relative;
+.navigation{
+  position:fixed;
+  width: 100%;
+  top:0;
 }
